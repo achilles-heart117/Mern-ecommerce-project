@@ -1,250 +1,113 @@
-Contribution: 2022-01-13 00:00
+# MERN Ecommerce
 
-Contribution: 2022-01-13 00:01
+## Description
 
-Contribution: 2022-01-13 00:02
+An ecommerce store built with MERN stack, and utilizes third party API's. This ecommerce store enable three main different flows or implementations:
 
-Contribution: 2022-01-14 00:00
+1. Buyers browse the store categories, products and brands
+2. Sellers or Merchants manage their own brand component
+3. Admins manage and control the entire store components 
 
-Contribution: 2022-01-14 00:01
 
-Contribution: 2022-01-14 00:02
+* features:
+  * Node provides the backend environment for this application
+  * Express middleware is used to handle requests, routes
+  * Mongoose schemas to model the application data
+  * React for displaying UI components
+  * Redux to manage application's state
+  * Redux Thunk middleware to handle asynchronous redux actions
 
-Contribution: 2022-01-14 00:03
 
-Contribution: 2022-01-14 00:04
+## Database Seed
 
-Contribution: 2022-01-14 00:05
+* The seed command will create an admin user in the database
+* The email and password are passed with the command as arguments
+* Like below command, replace brackets with email and password. 
+* For more information, see code [here](server/utils/seed.js)
 
-Contribution: 2022-01-14 00:06
+```
+npm run seed:db [email-***@****.com] [password-******] // This is just an example.
+```
 
-Contribution: 2022-01-14 00:07
+## Demo
 
-Contribution: 2022-01-14 00:08
+This application is deployed on Render Please check it out :smile: [here](https://mern-store.onrender.com).
 
-Contribution: 2022-01-18 00:00
+See admin dashboard [demo](https://mernstore-bucket.s3.us-east-2.amazonaws.com/admin.mp4)
 
-Contribution: 2022-01-18 00:01
+## Install
 
-Contribution: 2022-01-18 00:02
+Some basic Git commands are:
 
-Contribution: 2022-01-18 00:03
+```
+$ git clone https://github.com/mohamedsamara/mern-ecommerce.git
+$ cd project
+$ npm install
+```
 
-Contribution: 2022-01-18 00:04
+## Setup
 
-Contribution: 2022-01-18 00:05
+```
+ Create .env file that include:
 
-Contribution: 2022-01-18 00:06
+  * MONGO_URI & JWT_SECRET
+  * PORT & BASE_SERVER_URL & BASE_API_URL & BASE_CLIENT_URL
+  * MAILCHIMP_KEY & MAILCHIMP_LIST_KEY => Mailchimp configuration
+  * MAILGUN_KEY & MAILGUN_DOMAIN & MAILGUN_EMAIL_SENDER => Mailgun configuration
+  * GOOGLE_CLIENT_ID & GOOGLE_CLIENT_SECRET & GOOGLE_CALLBACK_URL => Google Auth configuration
+  * FACEBOOK_CLIENT_ID & FACEBOOK_CLIENT_SECRET & FACEBOOK_CALLBACK_URL => Facebook Auth configuration
+  * AWS_ACCESS_KEY_ID & AWS_SECRET_ACCESS_KEY & AWS_REGION & AWS_BUCKET_NAME => AWS configuration
+```
 
-Contribution: 2022-01-18 00:07
+## Start development
 
-Contribution: 2022-01-18 00:08
+```
+$ npm run dev
+```
 
-Contribution: 2022-01-19 00:00
+## Simple build for production
 
-Contribution: 2022-01-19 00:01
+```
+$ npm run build
+```
 
-Contribution: 2022-01-19 00:02
+## Run build for production
 
-Contribution: 2022-01-20 00:00
+```
+$ npm start
+```
 
-Contribution: 2022-01-24 00:00
 
-Contribution: 2022-01-24 00:01
+## Languages & tools
 
-Contribution: 2022-01-24 00:02
+- [Node](https://nodejs.org/en/)
 
-Contribution: 2022-01-24 00:03
+- [Express](https://expressjs.com/)
 
-Contribution: 2022-01-24 00:04
+- [Mongoose](https://mongoosejs.com/)
 
-Contribution: 2022-01-24 00:05
+- [React](https://reactjs.org/)
 
-Contribution: 2022-01-25 00:00
+- [Webpack](https://webpack.js.org/)
 
-Contribution: 2022-01-25 00:01
 
-Contribution: 2022-01-25 00:02
+### Code Formatter
 
-Contribution: 2022-01-25 00:03
+- Add a `.vscode` directory
+- Create a file `settings.json` inside `.vscode`
+- Install Prettier - Code formatter in VSCode
+- Add the following snippet:  
 
-Contribution: 2022-01-25 00:04
-
-Contribution: 2022-01-26 00:00
-
-Contribution: 2022-01-26 00:01
-
-Contribution: 2022-01-26 00:02
-
-Contribution: 2022-01-26 00:03
-
-Contribution: 2022-01-26 00:04
-
-Contribution: 2022-01-27 00:00
-
-Contribution: 2022-01-27 00:01
-
-Contribution: 2022-01-27 00:02
-
-Contribution: 2022-01-27 00:03
-
-Contribution: 2022-01-27 00:04
-
-Contribution: 2022-01-27 00:05
-
-Contribution: 2022-01-27 00:06
-
-Contribution: 2022-01-28 00:00
-
-Contribution: 2022-01-28 00:01
-
-Contribution: 2022-01-28 00:02
-
-Contribution: 2022-01-28 00:03
-
-Contribution: 2022-01-28 00:04
-
-Contribution: 2022-01-28 00:05
-
-Contribution: 2022-01-28 00:06
-
-Contribution: 2022-02-03 00:00
-
-Contribution: 2022-02-03 00:01
-
-Contribution: 2022-02-03 00:02
-
-Contribution: 2022-02-03 00:03
-
-Contribution: 2022-02-07 00:00
-
-Contribution: 2022-02-07 00:01
-
-Contribution: 2022-02-07 00:02
-
-Contribution: 2022-02-07 00:03
-
-Contribution: 2022-02-09 00:00
-
-Contribution: 2022-02-09 00:01
-
-Contribution: 2022-02-09 00:02
-
-Contribution: 2022-02-09 00:03
-
-Contribution: 2022-02-09 00:04
-
-Contribution: 2022-02-14 00:00
-
-Contribution: 2022-02-14 00:01
-
-Contribution: 2022-02-14 00:02
-
-Contribution: 2022-02-14 00:03
-
-Contribution: 2022-02-14 00:04
-
-Contribution: 2022-02-14 00:05
-
-Contribution: 2022-02-14 00:06
-
-Contribution: 2022-02-14 00:07
-
-Contribution: 2022-02-14 00:08
-
-Contribution: 2022-02-15 00:00
-
-Contribution: 2022-02-15 00:01
-
-Contribution: 2022-02-15 00:02
-
-Contribution: 2022-02-15 00:03
-
-Contribution: 2022-02-15 00:04
-
-Contribution: 2022-02-15 00:05
-
-Contribution: 2022-02-15 00:06
-
-Contribution: 2022-02-17 00:00
-
-Contribution: 2022-02-17 00:01
-
-Contribution: 2022-02-17 00:02
-
-Contribution: 2022-02-17 00:03
-
-Contribution: 2022-02-17 00:04
-
-Contribution: 2022-02-17 00:05
-
-Contribution: 2022-02-17 00:06
-
-Contribution: 2022-02-17 00:07
-
-Contribution: 2022-02-17 00:08
-
-Contribution: 2022-02-22 00:00
-
-Contribution: 2022-02-22 00:01
-
-Contribution: 2022-02-22 00:02
-
-Contribution: 2022-02-22 00:03
-
-Contribution: 2022-02-22 00:04
-
-Contribution: 2022-02-22 00:05
-
-Contribution: 2022-02-23 00:00
-
-Contribution: 2022-02-23 00:01
-
-Contribution: 2022-02-23 00:02
-
-Contribution: 2022-02-23 00:03
-
-Contribution: 2022-02-23 00:04
-
-Contribution: 2022-02-24 00:00
-
-Contribution: 2022-02-24 00:01
-
-Contribution: 2022-02-24 00:02
-
-Contribution: 2022-02-24 00:03
-
-Contribution: 2022-02-24 00:04
-
-Contribution: 2022-02-24 00:05
-
-Contribution: 2022-02-25 00:00
-
-Contribution: 2022-02-25 00:01
-
-Contribution: 2022-02-25 00:02
-
-Contribution: 2022-02-25 00:03
-
-Contribution: 2022-02-25 00:04
-
-Contribution: 2022-02-25 00:05
-
-Contribution: 2022-02-25 00:06
-
-Contribution: 2022-02-25 00:07
-
-Contribution: 2022-02-25 00:08
-
-Contribution: 2022-02-28 00:00
-
-Contribution: 2022-02-28 00:01
-
-Contribution: 2022-02-28 00:02
-
-Contribution: 2022-02-28 00:03
-
-Contribution: 2022-02-28 00:04
-
-Contribution: 2022-02-28 00:05
+```json
+
+    {
+      "editor.formatOnSave": true,
+      "prettier.singleQuote": true,
+      "prettier.arrowParens": "avoid",
+      "prettier.jsxSingleQuote": true,
+      "prettier.trailingComma": "none",
+      "javascript.preferences.quoteStyle": "single",
+    }
+
+```
 
